@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+#bannar{
+   background-image: url(../assets/images/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 180px 0;
+    
+}
+.bannar_text{
+    text-align: right;
+    width: 520px;
+    margin-left: auto;
+}
+.bannar_text h2{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    
+}
+.bannar_text p{
+    font-weight: 400;
+    color: #444343;
+    margin: 20px 0;
+
+}
+.bannar_btn{
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 18px 21px;  
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+
+}
+
+/* failure part start here */
+#failure{
+    padding: 130px 0;
+}
+.failure_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+}
+.failure_text h3{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.failure_text p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding: 15px 0;
+}
+
+.cheak_item ul {
+   list-style: none;
+  
+   
+}
+.cheak_item ul li{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+
+}
+span i{
+    color: #16D887;
+}
+
+
+/* plan part start here */
+.plan_head{
+    text-align: center;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding: 50px 0;
+
+}
+.plan_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.plan_descrption h3{
+   
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin: 15px 0;
+
+}
+.plan_descrption p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+
+/* positive mindset part start */
+.bacgrnd_img{
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.primary_btn{
+    color: #F15B22;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    
+
+
+}
